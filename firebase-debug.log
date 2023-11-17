@@ -1,0 +1,189 @@
+[debug] [2023-11-10T03:46:57.840Z] ----------------------------------------------------------------------
+[debug] [2023-11-10T03:46:57.842Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-10T03:46:57.843Z] CLI Version:   12.8.0
+[debug] [2023-11-10T03:46:57.844Z] Platform:      win32
+[debug] [2023-11-10T03:46:57.844Z] Node Version:  v18.17.1
+[debug] [2023-11-10T03:46:57.845Z] Time:          Fri Nov 10 2023 09:16:57 GMT+0530 (India Standard Time)
+[debug] [2023-11-10T03:46:57.846Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-10T03:46:57.971Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-10T03:46:57.972Z] > authorizing via signed-in user (sanketkumar0068@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sanke\netflix-gpt
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-10T03:47:03.265Z] Using project from CLI flag: netflixgpt-b028b
+[debug] [2023-11-10T03:47:03.268Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b [none]
+[debug] [2023-11-10T03:47:05.051Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b 403
+[debug] [2023-11-10T03:47:05.051Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-11-10T03:47:05.052Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-11-10T03:47:06.401Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project netflixgpt-b028b. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-11-10T03:47:44.982Z] ----------------------------------------------------------------------
+[debug] [2023-11-10T03:47:44.985Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-10T03:47:44.986Z] CLI Version:   12.8.0
+[debug] [2023-11-10T03:47:44.986Z] Platform:      win32
+[debug] [2023-11-10T03:47:44.986Z] Node Version:  v18.17.1
+[debug] [2023-11-10T03:47:44.987Z] Time:          Fri Nov 10 2023 09:17:44 GMT+0530 (India Standard Time)
+[debug] [2023-11-10T03:47:44.988Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-10T03:47:45.105Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-10T03:47:45.106Z] > authorizing via signed-in user (sanketkumar0068@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sanke\netflix-gpt
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-10T03:47:50.002Z] Using project from CLI flag: netflixgpt-b028b
+[debug] [2023-11-10T03:47:50.005Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b [none]
+[debug] [2023-11-10T03:47:51.491Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b 403
+[debug] [2023-11-10T03:47:51.492Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-11-10T03:47:51.493Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-11-10T03:47:52.544Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project netflixgpt-b028b. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-11-10T03:52:58.288Z] ----------------------------------------------------------------------
+[debug] [2023-11-10T03:52:58.291Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-11-10T03:52:58.291Z] CLI Version:   12.8.0
+[debug] [2023-11-10T03:52:58.292Z] Platform:      win32
+[debug] [2023-11-10T03:52:58.292Z] Node Version:  v18.17.1
+[debug] [2023-11-10T03:52:58.294Z] Time:          Fri Nov 10 2023 09:22:58 GMT+0530 (India Standard Time)
+[debug] [2023-11-10T03:52:58.294Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-10T03:52:58.425Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-10T03:52:58.428Z] > authorizing via signed-in user (sanketkumar0068@gmail.com)
+[debug] [2023-11-10T03:52:58.428Z] [iam] checking project netflixgpt-b028b for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-11-10T03:52:58.432Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions [none]
+[debug] [2023-11-10T03:52:58.433Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions x-goog-quota-user=projects/netflixgpt-b028b
+[debug] [2023-11-10T03:52:58.434Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-11-10T03:53:01.369Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions 200
+[debug] [2023-11-10T03:53:01.370Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions {}
+[debug] [2023-11-10T03:53:01.371Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project netflixgpt-b028b:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2023-11-10T03:53:01.375Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b [none]
+[debug] [2023-11-10T03:53:02.841Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b 403
+[debug] [2023-11-10T03:53:02.841Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-11-10T03:53:02.844Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-11-10T03:53:04.622Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project netflixgpt-b028b. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-11-10T03:53:19.431Z] ----------------------------------------------------------------------
+[debug] [2023-11-10T03:53:19.433Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-11-10T03:53:19.433Z] CLI Version:   12.8.0
+[debug] [2023-11-10T03:53:19.434Z] Platform:      win32
+[debug] [2023-11-10T03:53:19.434Z] Node Version:  v18.17.1
+[debug] [2023-11-10T03:53:19.435Z] Time:          Fri Nov 10 2023 09:23:19 GMT+0530 (India Standard Time)
+[debug] [2023-11-10T03:53:19.435Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-10T03:53:19.531Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-10T03:53:19.532Z] > authorizing via signed-in user (sanketkumar0068@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sanke\netflix-gpt
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-10T03:53:25.477Z] Using project from CLI flag: netflixgpt-b028b
+[debug] [2023-11-10T03:53:25.482Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b [none]
+[debug] [2023-11-10T03:53:26.861Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b 403
+[debug] [2023-11-10T03:53:26.862Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-11-10T03:53:26.863Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-11-10T03:53:28.414Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project netflixgpt-b028b. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-11-10T03:54:13.030Z] ----------------------------------------------------------------------
+[debug] [2023-11-10T03:54:13.032Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:netflix-5e322
+[debug] [2023-11-10T03:54:13.033Z] CLI Version:   12.8.0
+[debug] [2023-11-10T03:54:13.034Z] Platform:      win32
+[debug] [2023-11-10T03:54:13.034Z] Node Version:  v18.17.1
+[debug] [2023-11-10T03:54:13.035Z] Time:          Fri Nov 10 2023 09:24:13 GMT+0530 (India Standard Time)
+[debug] [2023-11-10T03:54:13.036Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-10T03:54:13.151Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-10T03:54:13.152Z] > authorizing via signed-in user (sanketkumar0068@gmail.com)
+[debug] [2023-11-10T03:54:13.152Z] [iam] checking project netflixgpt-b028b for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-11-10T03:54:13.155Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions [none]
+[debug] [2023-11-10T03:54:13.155Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions x-goog-quota-user=projects/netflixgpt-b028b
+[debug] [2023-11-10T03:54:13.156Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-11-10T03:54:15.908Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions 200
+[debug] [2023-11-10T03:54:15.909Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflixgpt-b028b:testIamPermissions {}
+[debug] [2023-11-10T03:54:15.910Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project netflixgpt-b028b:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2023-11-10T03:54:15.913Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b [none]
+[debug] [2023-11-10T03:54:17.182Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b 403
+[debug] [2023-11-10T03:54:17.182Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflixgpt-b028b {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-11-10T03:54:17.185Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-11-10T03:54:18.664Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\sanke\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project netflixgpt-b028b. Please make sure the project exists and your account has permission to access it.
