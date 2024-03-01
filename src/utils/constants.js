@@ -7,7 +7,7 @@ export const API_OPTIONS =  {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZmViMTFhMGM5N2FkMTI5Mzg1MTk5MGJhYTRkNzc2MCIsInN1YiI6IjY1ZDg3NWM4YjIzNGI5MDE2M2M3NjhkYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.wyYpupTNHn9MtW9qJ1eKc3_LZzSZUlzVDRRNY6qV7BI'
+      Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY 
     }
   };
 
@@ -16,3 +16,5 @@ export const API_OPTIONS =  {
   export const BG_URL = "https://assets.nflxext.com/ffe/siteui/vlv3/ab4b0b22-2ddf-4d48-ae88-c201ae0267e2/0efe6360-4f6d-4b10-beb6-81e0762cfe81/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_medium.jpg";
 
   export const SUPPORTED_LANGUAGES = [{identifier: "en",name: "English"},{identifier: "hindi",name: "Hindi"},{identifier: "spanish",name: "Spanish"}]
+
+  export const OPENAI_KEY=process.env.REACT_APP_OPENAI_KEY;
